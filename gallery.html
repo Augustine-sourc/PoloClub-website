@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery</title>
+  <link rel="stylesheet" href="bootstrap-5.0.2-examples/assets/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+
+    .category {
+      padding: 20px;
+    }
+
+    .category h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+      color: #333;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/download (5).jpg" alt=""
+          style="width: 50px; border-radius: 20px;margin-right: 5px; margin-left: 10px;">Polo
+        Sport</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01"
+        aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav me-auto mb-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutUs.html" target="_blank">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="EVENTS.HTML" id="dropdown01" data-bs-toggle="dropdown"
+              aria-expanded="false">Events</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+              <li><a class="dropdown-item" href="EVENTS.HTML">Upcoming Events</a></li>
+              <li><a class="dropdown-item" href="EVENTS.HTML">Past Events</a></li>
+              <li><a class="dropdown-item" href="EVENTS.HTML">Tournaments</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="membership.html" target="_blank">Membership</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html" target="_blank">Shop</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+
+        </ul>
+        <form>
+          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <h1>POLO GALLERIES</h1>
+
+  <!-- Category 1 -->
+  <div class="category">
+    <h2> 2019-2020</h2>
+    <div class="gallery">
+      <a href="images/kitchen _cabinets.jpg">
+        <img src="images/b019a809-30e8-40e7-b08b-f7b36402e254.jpg" alt="Nature 1">
+      </a>
+      <a href="images/full.kitchen,servicing.jpg"><img
+          src="images/Castle Howard Cup 2012 -     A picture-perfect day of polo and picnics at this magnificent venue - WHITE ROSE POLO CLUB.jpg"
+          alt="Nature 2"></a>
+      <a href="images/full _kitchen.jpg"><img src="images/polo (1).jpg" alt="Nature 3"></a>
+      <a href="images/kitchen_ cabinet _plus _cooking _top.jpg"><img src="images/Polo_.jpg" alt="Nature 4"></a>
+      <a href="images/tabletop.jpg"><img src="images/Polo Sport_ The Game of the Kings - Anna Archinger Photography.jpg"
+          alt="Nature 5"></a>
+      <a href="images/tap.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.01.40.jpeg" alt="Nature 6"></a>
+      <a href="images/kitchen.cabinet.jpg"><img src="images/Hourse 3.jpg" alt="Nature 7"></a>
+    </div>
+  </div>
+
+  <!-- Category 2 -->
+  <div class="category">
+    <h2>2021-2022</h2>
+    <div class="gallery">
+      <a href="images/bedroom1.jpg"> <img src="images/WhatsApp Image 2025-10-06 at 08.06.59.jpeg" alt="City 1"></a>
+      <a href="images/bedroom2.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.07.15.jpeg" alt="City 2"></a>
+      <a href="images/bedroom3.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.07.33.jpeg" alt="City 3"></a>
+      <a href="images/bedroom4.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.07.47.jpeg" alt="City 4"></a>
+      <a href="images/drawer1.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.01.40.jpeg" alt="City 5"></a>
+      <a href="images/bedroom6.jpg"> <img src="images/WhatsApp Image 2025-10-06 at 08.11.00.jpeg" alt="City 6"></a>
+      <a href="images/bedroom5.jpg"> <img src="images/WhatsApp Image 2025-10-06 at 08.09.57.jpeg" alt="City 7"></a>
+    </div>
+  </div>
+
+  <!-- Category 3 -->
+  <div class="category">
+    <h2>2023-2024</h2>
+    <div class="gallery">
+      <a href="images/living1.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.11.09.jpeg" alt="Animal 1"></a>
+      <a href="images/living2.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.11.00.jpeg" alt="Animal 2"></a>
+      <a href="images/living4.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.11.15.jpeg" alt="Animal 3"></a>
+      <a href="images/living3.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.01.40.jpeg" alt="Animal 4"></a>
+      <a href="images/living6.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.09.57.jpeg" alt="Animal 5"></a>
+      <a href="images/living7.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.06.59.jpeg" alt="Animal 6"></a>
+      <a href="images/living5.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.07.33.jpeg" alt="Animal 7"></a>
+    </div>
+  </div>
+
+  <!-- Category 4 -->
+  <div class="category">
+    <h2>2025-2026</h2>
+    <div class="gallery">
+      <a href="images/toilet1.jpg"> <img src="images/WhatsApp Image 2025-10-06 at 08.17.02.jpeg" alt="Food 1"></a>
+      <a href="images/toilet2.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.17.01.jpeg" alt="Food 2"></a>
+      <a href="images/toilet4.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.17.07.jpeg" alt="Food 3"></a>
+      <a href="images/toilet6.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.11.09.jpeg" alt="Food 4"></a>
+      <a href="images/toilet7.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.17.022.jpeg" alt="Food 5"></a>
+      <a href="images/toilet5.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.17.23.jpeg" alt="Food 6"></a>
+      <a href="images/toilet3.jpg"><img src="images/WhatsApp Image 2025-10-06 at 08.07.47.jpeg" alt="Food 7"></a>
+    </div>
+  </div>
+
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container-fluid" style="text-align: center;">
+      <span class="text-muted">&copy;2025 All rights reserved</span>
+    </div>
+  </footer>
+
+  <script src="bootstrap-5.0.2-examples/assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

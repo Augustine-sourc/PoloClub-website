@@ -1,0 +1,68 @@
+.forms {
+  padding-left: 35px;
+  padding-top: 5px;
+  border-radius: 20px;
+  opacity: 90%;
+  width: 35%;
+  margin: 0 auto;
+  font-size: 20px;
+  box-shadow: 10px 5px 20px 2px;
+  margin-top: 200px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.last-part:hover {
+  scale: 1.09;
+}
+
+.last-part:active {
+  scale: 1.02;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.member {
+  background: rgba(255, 255, 255, 0.02);
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center
+}
+
+.avatar {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: goldenrod;
+  margin: auto;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: var(--accent)
+}
+
+.member h3 {
+  margin: 0;
+  font-size: 15px
+}
+
+.member p {
+  margin: 4px 0 0 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.main-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.item1{
+  flex: 5;
+}
